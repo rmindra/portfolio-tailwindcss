@@ -592,10 +592,6 @@ video {
   top: 100%;
 }
 
-.bottom-10 {
-  bottom: 2.5rem;
-}
-
 .-z-10 {
   z-index: -10;
 }
@@ -646,36 +642,32 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
 .mr-3 {
   margin-right: 0.75rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
-.ml-auto {
-  margin-left: auto;
+.mr-4 {
+  margin-right: 1rem;
 }
 
 .mr-auto {
   margin-right: auto;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .mt-16 {
   margin-top: 4rem;
 }
 
-.mr-4 {
-  margin-right: 1rem;
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .block {
@@ -690,16 +682,16 @@ video {
   display: none;
 }
 
-.h-9 {
-  height: 2.25rem;
-}
-
 .h-12 {
   height: 3rem;
 }
 
-.h-16 {
-  height: 4rem;
+.h-9 {
+  height: 2.25rem;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .w-9 {
@@ -708,14 +700,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-12 {
-  width: 3rem;
-}
-
-.w-16 {
-  width: 4rem;
 }
 
 .max-w-\[250px\] {
@@ -799,19 +783,14 @@ video {
   border-width: 1px;
 }
 
-.border-slate-300 {
-  --tw-border-opacity: 1;
-  border-color: rgb(203 213 225 / var(--tw-border-opacity));
-}
-
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
 .border-slate-200 {
   --tw-border-opacity: 1;
   border-color: rgb(226 232 240 / var(--tw-border-opacity));
+}
+
+.border-slate-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(203 213 225 / var(--tw-border-opacity));
 }
 
 .bg-dark {
@@ -836,11 +815,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-red-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
 
 .fill-current {
@@ -891,40 +865,24 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.pb-12 {
-  padding-bottom: 3rem;
-}
-
 .pb-16 {
   padding-bottom: 4rem;
-}
-
-.pb-32 {
-  padding-bottom: 8rem;
-}
-
-.pt-24 {
-  padding-top: 6rem;
-}
-
-.pt-36 {
-  padding-top: 9rem;
-}
-
-.pt-20 {
-  padding-top: 5rem;
-}
-
-.pb-4 {
-  padding-bottom: 1rem;
 }
 
 .pb-2 {
   padding-bottom: 0.5rem;
 }
 
+.pb-32 {
+  padding-bottom: 8rem;
+}
+
 .pt-16 {
   padding-top: 4rem;
+}
+
+.pt-36 {
+  padding-top: 9rem;
 }
 
 .text-center {
@@ -981,6 +939,31 @@ video {
   line-height: 1.625;
 }
 
+.text-\[\#06B6D4\] {
+  --tw-text-opacity: 1;
+  color: rgb(6 182 212 / var(--tw-text-opacity));
+}
+
+.text-\[\#1572B6\] {
+  --tw-text-opacity: 1;
+  color: rgb(21 114 182 / var(--tw-text-opacity));
+}
+
+.text-\[\#339933\] {
+  --tw-text-opacity: 1;
+  color: rgb(51 153 51 / var(--tw-text-opacity));
+}
+
+.text-\[\#E34F26\] {
+  --tw-text-opacity: 1;
+  color: rgb(227 79 38 / var(--tw-text-opacity));
+}
+
+.text-\[\#F7DF1E\] {
+  --tw-text-opacity: 1;
+  color: rgb(247 223 30 / var(--tw-text-opacity));
+}
+
 .text-dark {
   --tw-text-opacity: 1;
   color: rgb(15 23 42 / var(--tw-text-opacity));
@@ -1004,35 +987,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\#1572B6\] {
-  --tw-text-opacity: 1;
-  color: rgb(21 114 182 / var(--tw-text-opacity));
-}
-
-.text-\[\#E34F26\] {
-  --tw-text-opacity: 1;
-  color: rgb(227 79 38 / var(--tw-text-opacity));
-}
-
-.text-\[\#F7DF1E\] {
-  --tw-text-opacity: 1;
-  color: rgb(247 223 30 / var(--tw-text-opacity));
-}
-
-.text-\[\#06B6D4\] {
-  --tw-text-opacity: 1;
-  color: rgb(6 182 212 / var(--tw-text-opacity));
-}
-
-.text-\[\#339933\] {
-  --tw-text-opacity: 1;
-  color: rgb(51 153 51 / var(--tw-text-opacity));
-}
-
-.underline {
-  text-decoration-line: underline;
 }
 
 .shadow-lg {
@@ -1177,11 +1131,6 @@ body {
     background-color: transparent;
   }
 
-  .md\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -1189,6 +1138,11 @@ body {
 
   .md\:text-lg {
     font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 
@@ -1202,10 +1156,6 @@ body {
 @media (min-width: 1024px) {
   .lg\:w-1\/2 {
     width: 50%;
-  }
-
-  .lg\:pt-10 {
-    padding-top: 2.5rem;
   }
 
   .lg\:pt-12 {
