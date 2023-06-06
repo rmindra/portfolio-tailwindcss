@@ -1,2 +1,2 @@
 # portfolio-tailwindcss
-Live page : 
+Live page : https://rmindra.github.io/portfolio-tailwindcss/
